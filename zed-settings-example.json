@@ -1,0 +1,50 @@
+{
+  // Auto-save settings
+  "autosave": "on_focus_change",
+
+  // Alternative auto-save options:
+  // "autosave": "off",           // Disable auto-save
+  // "autosave": "on_window_change", // Save when switching windows
+  // "autosave": "after_delay",   // Save after a delay
+
+  // Format on save
+  "format_on_save": "on",
+
+  // Go-specific settings
+  "languages": {
+    "Go": {
+      "format_on_save": "on",
+      "code_actions_on_format": { "source.organizeImports": true }
+    }
+  },
+
+  // Other useful settings for Go development
+  "tab_size": 4,
+  "hard_tabs": true,
+  "show_whitespaces": "selection",
+  "remove_trailing_whitespace_on_save": true,
+  "ensure_final_newline_on_save": true,
+
+  // UI preferences
+  "theme": "One Dark",
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_font_size": 14,
+  "gutter": {
+    "line_numbers": true
+  },
+  "git": {
+    "git_gutter": "tracked_files"
+  },
+
+  // File tree
+  "project_panel": {
+    "dock": "left",
+    "default_width": 240
+  },
+
+  // Terminal
+  "terminal": {
+    "dock": "bottom",
+    "default_height": 320
+  }
+}
