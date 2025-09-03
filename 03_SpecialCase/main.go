@@ -22,7 +22,7 @@ func main() {
 		i := idx
 		s := salutation
 		wg.Go(func() {
-			fmt.Println("s1:", i, s)
+			fmt.Println("s1: ", i, s)
 		})
 	}
 
